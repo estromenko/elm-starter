@@ -1,0 +1,10 @@
+/elm-stuff
+
+/.vscode
+/.idea
+
+/node_modules
+package-lock.json
+
+/build/*
+!/build/index.html

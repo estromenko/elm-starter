@@ -1,0 +1,22 @@
+{
+  "name": "elm-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "elm.js",
+  "scripts": {
+    "format": "elm-format src --yes",
+    "dev": "elm reactor",
+    "build": "elm make src/Main.elm --output build/elm.js --optimize && elm-minify build/elm.js",
+    "start": "http-server build -c3",
+    "clean": "rm -rf build/*.js index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "elm": "^0.19.1-5",
+    "elm-format": "^0.8.5",
+    "elm-minify": "^2.0.4",
+    "http-server": "^13.0.2"
+  }
+}
